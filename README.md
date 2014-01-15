@@ -11,6 +11,9 @@ The id of your weather station: can be found in the web-app. It should look like
 * The token of your weather station:
 The token of your weather station can be found in the web-app. It should look like similar to this:    68ac906495480a3404beee4874ed853a037a7a8f
 
+You may have to install bc via:
+    sudo apt-get install bc
+
 It is recommended to use crontab to schedule the execution of the bash script.
 ## tested with ##
 * Temperature sensor DS18S20
