@@ -5,11 +5,11 @@ modprobe w1-therm
 
 #INSERT YOUR DATA HERE:
 #Please insert your device Name here:
-devicename=`INSERT DEVICE NAME`
+devicename="INSERT DEVICE NAME"
 #Please insert your station id here:
-sid=`INSERT STATION ID`
+sid="INSERT STATION ID"
 #Please insert your station token here:
-token=`INSERT TOKEN`
+token="INSERT TOKEN"
 
 # Read Temperature
 tempread=`cat /sys/bus/w1/devices/$devicename/w1_slave`
