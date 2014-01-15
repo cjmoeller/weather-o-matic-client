@@ -21,23 +21,3 @@ curl --request GET 'http://weather-o-matic.herokuapp.com/submit?id=$sid&token=$t
 
 # Output the value for debugging etc.
 echo $temp2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
