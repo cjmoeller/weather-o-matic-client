@@ -1,8 +1,7 @@
 weather-o-matic-client
 ======================
 
-Client for the weather-o-matic community
-
+Client scripts for the weather-o-matic community. The webapp can be found here: http://weather-o-matic.herokuapp.com/ and on github: https://github.com/bigteddy97/weather-o-matic
 # bash #
 There are a few steps you have to do, before you can use your bash-script.
 Open the script and edit the following vars:
