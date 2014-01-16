@@ -22,8 +22,10 @@ The id of your weather station: can be found in the web-app. It should look like
 * The token of your weather station:
 The token of your weather station can be found in the web-app. It should look like similar to this:    68ac906495480a3404beee4874ed853a037a7a8f
 * The script automatically schedules sending data to weather-o-matic. By changing the variable "sleeptime" you can set the interval in seconds between to api-requests.
+
 ### General: ###
 Start the script with su for the first time to successfully mount the 1-wire protocol modules. You also could execute the modprobe commands on startup.
+
 ## tested with ##
 * Temperature sensor DS18S20
 * Temperature sensor DS18B20
