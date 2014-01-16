@@ -5,8 +5,7 @@ import glob
 import time
 import urllib2
 
-#user defined variables
-
+#USER DEFINED VARIABLES
 #Please insert your station id here:
 sid = "INSERT YOUR STATION ID"
 #Please insert your station token here:
@@ -19,7 +18,7 @@ sleeptime = 3600 #update every hour
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
 
-# find the path of a sensor directory that starts with 28
+# find the path of a sensor directory 
 devicelist = glob.glob('/sys/bus/w1/devices/*')
 # append the device file name to get the absolute path of the sensor 
 devicefile = devicelist[1] + '/w1_slave'
