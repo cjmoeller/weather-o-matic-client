@@ -17,3 +17,4 @@ You may have to install bc via:
 It is recommended to use crontab to schedule the execution of the bash script.
 ## tested with ##
 * Temperature sensor DS18S20
+* Temperature sensor DS18B20
