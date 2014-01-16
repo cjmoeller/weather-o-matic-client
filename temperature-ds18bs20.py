@@ -21,7 +21,10 @@ os.system('modprobe w1-therm')
 # find the path of a sensor directory 
 devicelist = glob.glob('/sys/bus/w1/devices/*')
 # append the device file name to get the absolute path of the sensor 
-devicefile = devicelist[1] + '/w1_slave'
+#devicefile = devicelist[1] + '/w1_slave'
+for device in devicelist:
+      if device != "w1_bus_master1":
+            devicefile = device
 
 # open the file representing the sensor.
 while True:
