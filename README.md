@@ -14,6 +14,8 @@ The token of your weather station can be found in the web-app. It should look li
 You may have to install bc via:
 ```sudo apt-get install bc```
 
+Start the script with su for the first time to successfully mount the 1-wire protocol modules. You also could execute the modprobe commands on startup.
+
 It is recommended to use crontab to schedule the execution of the bash script.
 ## tested with ##
 * Temperature sensor DS18S20
