@@ -24,7 +24,7 @@ devicelist = glob.glob('/sys/bus/w1/devices/*')
 devicefile = "" #devicelist[1] + '/w1_slave'
 for device in devicelist:
       if device != "w1_bus_master1":
-            devicefile = device
+            devicefile = device + '/w1_slave'
 
 # open the file representing the sensor.
 while True:
